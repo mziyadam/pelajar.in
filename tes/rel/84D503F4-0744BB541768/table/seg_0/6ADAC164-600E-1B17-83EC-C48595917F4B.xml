@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6ADAC164-600E-1B17-83EC-C48595917F4B" name="PIPHimpunan">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>614D8ED5-3AE3-6446-4430-66C8B7B0DC4A</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idUser" id="42D24305-AB6A-621A-6761-68AEA5E659D2">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>D805576A-B531-FECA-D9C5-F86E167F7276</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="D57398F9-F0E2-A951-632E-5B5520B3D55A">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>229996B8-8689-6DDF-DFFB-5BC4760B02E7</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="632E73A5-D24D-C149-74BB-598ED3923861">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>DB252C89-5A3D-A5E7-C09F-C2DF31DCE989</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PIPHimpunan_ID" id="CF651268-DB48-CD1F-D96B-2EFED678DFE2">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B44E282-1A16-9E43-5E43-A29EE62A5FDE" name="PIPHimpunan_PK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="CF651268-DB48-CD1F-D96B-2EFED678DFE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

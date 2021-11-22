@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="625AD790-1DF3-1558-329F-8BCD9114F73D" name="Komentar">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>9E08FAA1-A6FE-C956-CF8E-87601C1443ED</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idKomentar" id="7803DF70-391C-DA92-8F0A-41898853938F">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>9D78C875-72C1-C542-0467-BA6878CEFE03</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idMateri" id="F02C8535-5188-8970-0E38-701ABEA5F1FF">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>BB82ADA8-B92D-C59B-7E81-59A68C214160</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="komentar" id="DD27718D-1D88-4F5A-8231-BAEB4E001F3A">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>067E3355-87EB-5C12-2316-037E1D79AAFA</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="timeStamp" id="FEF1FFA6-4C3D-1419-6B44-C7506F8F3564">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>FFAEA5C9-F7DC-2588-C0DE-740E0521CEDF</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Materi_idMateri" id="3B9CCB14-0883-E556-BE3F-1E6A75D833F6">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>E8249B72-0BF1-0C95-0DCB-7532A44B2F7B</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="453E07FA-52D5-4A02-BC94-E7A861D4CB1D" referredColumn="9CBB8930-8E49-CBAB-E374-553714783578"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D566B8C-B2E8-5C6F-6015-BEBB2D01B12D" name="Komentar_PK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>6610A2D9-5554-EF5A-7A1C-EB622B569F47</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7803DF70-391C-DA92-8F0A-41898853938F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9663DEDD-D7E9-35D3-9FD1-2642885F3D4A" name="Komentar_Materi_FK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>4FDB3E9F-768B-845E-582F-34C4D4A61BC4</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B9CCB14-0883-E556-BE3F-1E6A75D833F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F913C328-9591-AD89-4AAD-1C842A090FA8" name="Mengakses">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Mahasiswa_Mahasiswa_ID" id="681C475F-CB10-18A1-F68F-CAB612C69A4C">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57B0F905-A5BA-0B5B-57CA-ED34E5C6A3F0" referredColumn="A757C0CA-0585-89BA-50F0-286406BD7E0D"/>
+</associations>
+</Column>
+<Column name="Materi_idMateri" id="3B650089-A2A1-6DFF-8649-EC3A47391F26">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0000A95-59E4-328D-266D-053D5C1B2938" referredColumn="9CBB8930-8E49-CBAB-E374-553714783578"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D52F183-AECD-C3A3-97FA-43C214F766DB" name="Mengakses_PK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="681C475F-CB10-18A1-F68F-CAB612C69A4C"/>
+<colUsage columnID="3B650089-A2A1-6DFF-8649-EC3A47391F26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F1CF40B7-8AE4-A3E2-D3F7-C66D7D249C81" name="Mengakses_Mahasiswa_FK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>F290E667-BF12-CC2E-348B-E5B2DF688177</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="681C475F-CB10-18A1-F68F-CAB612C69A4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C485701B-77AD-8652-4432-94501E91E138" name="Mengakses_Materi_FK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>F290E667-BF12-CC2E-348B-E5B2DF688177</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B650089-A2A1-6DFF-8649-EC3A47391F26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

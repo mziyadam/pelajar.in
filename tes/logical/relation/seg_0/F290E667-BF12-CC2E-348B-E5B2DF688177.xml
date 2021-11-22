@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mengakses" directorySegmentName="seg_0" id="F290E667-BF12-CC2E-348B-E5B2DF688177">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:33:10 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<engineerTo>
+<item key="84D503F4-546A-57C3-4F6D-0744BB541768" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>740D4B91-FDA3-264E-3B27-52875F536830</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D3D5AE14-8D2E-9DF4-1DAF-9245E6E04DCC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

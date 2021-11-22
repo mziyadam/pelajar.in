@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2C79ECD-4BAE-7A00-E90E-735AE0FD8571" containerWithKeyObject="BFCFAB06-0AF4-EAC1-A62A-3434BC0D4E79" localFKIndex="53E315E7-ACFB-1FAC-474E-BF27174EBA09" name="Mengubah_PIPHimpunan_FK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>5CC22BDF-66A2-2821-3761-771BDC5EBA1C</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<referredTableLongName>PIPHimpunan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6ADAC164-600E-1B17-83EC-C48595917F4B</referredTableID>
+<keyObject>0B44E282-1A16-9E43-5E43-A29EE62A5FDE</keyObject>
+<referredKeyID>0B44E282-1A16-9E43-5E43-A29EE62A5FDE</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PIPHimpunan_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

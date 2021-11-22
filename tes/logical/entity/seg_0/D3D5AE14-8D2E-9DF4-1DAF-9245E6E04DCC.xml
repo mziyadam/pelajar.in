@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3D5AE14-8D2E-9DF4-1DAF-9245E6E04DCC" name="Materi">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:09:24 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<engineerTo>
+<item key="84D503F4-546A-57C3-4F6D-0744BB541768" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idMateri" id="607C1A9F-2C6B-4E95-4540-BBD682C519AB">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:09:34 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<engineerTo>
+<item key="84D503F4-546A-57C3-4F6D-0744BB541768" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mataKuliah" id="099FD594-DCD6-2C01-7565-29F12100CE2C">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:10:49 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<engineerTo>
+<item key="84D503F4-546A-57C3-4F6D-0744BB541768" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="judulMateri" id="C2F0CB0F-0204-8B3C-9AA2-BC4D7597EA8F">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:11:19 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<engineerTo>
+<item key="84D503F4-546A-57C3-4F6D-0744BB541768" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fileMateri" id="EE0BC6B0-9B1E-534A-9D53-3215F385B137">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:12:22 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<engineerTo>
+<item key="84D503F4-546A-57C3-4F6D-0744BB541768" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="056F2122-249B-A6F5-41EA-FB55A89DD2F0" name="Materi PK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:10:28 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<engineerTo>
+<item key="84D503F4-546A-57C3-4F6D-0744BB541768" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>607C1A9F-2C6B-4E95-4540-BBD682C519AB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

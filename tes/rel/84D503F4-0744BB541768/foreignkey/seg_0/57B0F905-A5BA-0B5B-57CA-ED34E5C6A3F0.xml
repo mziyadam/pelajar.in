@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="57B0F905-A5BA-0B5B-57CA-ED34E5C6A3F0" containerWithKeyObject="F913C328-9591-AD89-4AAD-1C842A090FA8" localFKIndex="F1CF40B7-8AE4-A3E2-D3F7-C66D7D249C81" name="Mengakses_Mahasiswa_FK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>F290E667-BF12-CC2E-348B-E5B2DF688177</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<referredTableLongName>Mahasiswa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>771A3E45-CB87-FEB8-4557-12AE27848803</referredTableID>
+<keyObject>4FC08ED5-7A31-7CA5-1033-DD013521874A</keyObject>
+<referredKeyID>4FC08ED5-7A31-7CA5-1033-DD013521874A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Mahasiswa_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

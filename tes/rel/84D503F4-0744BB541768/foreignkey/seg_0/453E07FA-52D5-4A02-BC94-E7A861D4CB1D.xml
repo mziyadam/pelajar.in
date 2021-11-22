@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="453E07FA-52D5-4A02-BC94-E7A861D4CB1D" containerWithKeyObject="625AD790-1DF3-1558-329F-8BCD9114F73D" localFKIndex="9663DEDD-D7E9-35D3-9FD1-2642885F3D4A" name="Komentar_Materi_FK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>4FDB3E9F-768B-845E-582F-34C4D4A61BC4</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<referredTableLongName>Materi</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D4F85525-E613-BE19-1F28-370B3F7C87F5</referredTableID>
+<keyObject>A69B10C7-0DEE-A75C-5225-9DFE98F6A065</keyObject>
+<referredKeyID>A69B10C7-0DEE-A75C-5225-9DFE98F6A065</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>idMateri</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

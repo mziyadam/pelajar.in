@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BFCFAB06-0AF4-EAC1-A62A-3434BC0D4E79" name="Mengubah">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PIPHimpunan_PIPHimpunan_ID" id="920C0237-8C5B-18F8-F6CE-6CD4835E3C83">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2C79ECD-4BAE-7A00-E90E-735AE0FD8571" referredColumn="CF651268-DB48-CD1F-D96B-2EFED678DFE2"/>
+</associations>
+</Column>
+<Column name="Materi_idMateri" id="59E63633-24A8-5CFA-BBCB-2867E33C8822">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F7589BB-474E-9E5D-D4F4-F682D0E56021" referredColumn="9CBB8930-8E49-CBAB-E374-553714783578"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0105893A-3149-2AB7-F0E1-BCA075737C2B" name="Mengubah_PK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="920C0237-8C5B-18F8-F6CE-6CD4835E3C83"/>
+<colUsage columnID="59E63633-24A8-5CFA-BBCB-2867E33C8822"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="53E315E7-ACFB-1FAC-474E-BF27174EBA09" name="Mengubah_PIPHimpunan_FK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>5CC22BDF-66A2-2821-3761-771BDC5EBA1C</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="920C0237-8C5B-18F8-F6CE-6CD4835E3C83"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50002BCF-C492-AB6C-2910-62F6402BDEDE" name="Mengubah_Materi_FK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>5CC22BDF-66A2-2821-3761-771BDC5EBA1C</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59E63633-24A8-5CFA-BBCB-2867E33C8822"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

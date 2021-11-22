@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mengubah" directorySegmentName="seg_0" id="5CC22BDF-66A2-2821-3761-771BDC5EBA1C">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:32:01 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<engineerTo>
+<item key="84D503F4-546A-57C3-4F6D-0744BB541768" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>614D8ED5-3AE3-6446-4430-66C8B7B0DC4A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D3D5AE14-8D2E-9DF4-1DAF-9245E6E04DCC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

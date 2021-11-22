@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D4F85525-E613-BE19-1F28-370B3F7C87F5" name="Materi">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>D3D5AE14-8D2E-9DF4-1DAF-9245E6E04DCC</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMateri" id="9CBB8930-8E49-CBAB-E374-553714783578">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>607C1A9F-2C6B-4E95-4540-BBD682C519AB</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mataKuliah" id="FB1962DA-6F0D-3404-F302-C0A1A93A061F">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>099FD594-DCD6-2C01-7565-29F12100CE2C</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="judulMateri" id="5D679A1C-87A8-9998-DD89-61EFB9AB4EAA">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>C2F0CB0F-0204-8B3C-9AA2-BC4D7597EA8F</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fileMateri" id="51225D2B-6CCF-683B-CED5-D2DA18CA45E9">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>EE0BC6B0-9B1E-534A-9D53-3215F385B137</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Komentar_idKomentar" id="22B76233-789C-AE45-C9B3-CB0F4EA9CE7E">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:35:34 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="521B5635-D39E-6A86-537E-395D5EE5874E" referredColumn="7803DF70-391C-DA92-8F0A-41898853938F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A69B10C7-0DEE-A75C-5225-9DFE98F6A065" name="Materi_PK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:34:40 UTC</createdTime>
+<generatorID>056F2122-249B-A6F5-41EA-FB55A89DD2F0</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CBB8930-8E49-CBAB-E374-553714783578"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="696DE71B-3F3C-5B42-B5AB-C164E211A7BD" name="Materi_Komentar_FK">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 08:35:34 UTC</createdTime>
+<generatorID>6610A2D9-5554-EF5A-7A1C-EB622B569F47</generatorID>
+<ownerDesignName>tes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22B76233-789C-AE45-C9B3-CB0F4EA9CE7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
