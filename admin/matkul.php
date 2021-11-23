@@ -78,7 +78,7 @@
 				<div class="ttr-logo-box">
 					<div>
 						<a href="index.html" class="ttr-logo">
-							<img class="img-fluid mt-1" style="height: 92px;" src="../assets/images/LogoRPL.png">
+							<img class="img-fluid mt-1" style="height: 92px;" src="assets/images/LogoRPL.png">
 						</a>
 					</div>
 				</div>
@@ -97,7 +97,7 @@
 							<a href="#" class="ttr-material-button ttr-submenu-toggle"><span class="ttr-user-avatar"><img alt="" src="assets/images/testimonials/pic3.jpg" width="32" height="32"></span></a>
 							<div class="ttr-header-submenu">
 								<ul>
-									<li><a href="../login.html">Logout</a></li>
+									<li><a href="login.html">Logout</a></li>
 								</ul>
 							</div>
 						</li>
@@ -124,7 +124,7 @@
     <!-- Content -->
     <div class="page-content bg-white">
         <!-- inner page banner -->
-        <div class="page-banner ovbl-dark" style="background-image:url(../assets/images/banner/banner3.jpg);">
+        <div class="page-banner ovbl-dark" style="background-image:url(assets/images/banner/banner3.jpg);">
             <div class="container">
                 <div class="page-banner-entry">
                     <h1 class="text-white">Mata Kuliah</h1>

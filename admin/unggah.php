@@ -22,8 +22,8 @@
 	<meta name="format-detection" content="telephone=no">
 	
 	<!-- FAVICONS ICON ============================================= -->
-	<link rel="icon" href="../assets/images/favicon.ico" type="image/x-icon" />
-	<link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.png" />
+	<link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
 	
 	<!-- PAGE TITLE HERE ============================================= -->
 	<title>EduChamp : Education HTML Template </title>
@@ -37,17 +37,17 @@
 	<![endif]-->
 	
 	<!-- All PLUGINS CSS ============================================= -->
-	<link rel="stylesheet" type="text/css" href="../assets/css/assets.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/assets.css">
 	
 	<!-- TYPOGRAPHY ============================================= -->
-	<link rel="stylesheet" type="text/css" href="../assets/css/typography.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/typography.css">
 	
 	<!-- SHORTCODES ============================================= -->
-	<link rel="stylesheet" type="text/css" href="../assets/css/shortcodes/shortcodes.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/shortcodes/shortcodes.css">
 	
 	<!-- STYLESHEETS ============================================= -->
-	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
-	<link class="skin" rel="stylesheet" type="text/css" href="../assets/css/color/color-1.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link class="skin" rel="stylesheet" type="text/css" href="assets/css/color/color-1.css">
 	<!-- tambahan-->
 	<link rel="stylesheet" type="text/css" href="assets/css/assets.css">
 	<link rel="stylesheet" type="text/css" href="assets/vendors/calendar/fullcalendar.css">
@@ -78,7 +78,7 @@
 			<div class="ttr-logo-box">
 				<div>
 					<a href="index.html" class="ttr-logo">
-						<img class="img-fluid mt-1" style="height: 92px;" src="../assets/images/LogoRPL.png">
+						<img class="img-fluid mt-1" style="height: 92px;" src="assets/images/LogoRPL.png">
 					</a>
 				</div>
 			</div>
@@ -94,10 +94,10 @@
 					
 					
 					<li>
-						<a href="#" class="ttr-material-button ttr-submenu-toggle"><span class="ttr-user-avatar"><img alt="" src="../assets/images/testimonials/pic3.jpg" width="32" height="32"></span></a>
+						<a href="#" class="ttr-material-button ttr-submenu-toggle"><span class="ttr-user-avatar"><img alt="" src="assets/images/testimonials/pic3.jpg" width="32" height="32"></span></a>
 						<div class="ttr-header-submenu">
 							<ul>
-								<li><a href="../login.html">Logout</a></li>
+								<li><a href="login.html">Logout</a></li>
 							</ul>
 						</div>
 					</li>
@@ -134,7 +134,7 @@
 					<div class="widget-box">
 						
 						<div class="widget-inner">
-							<form class="edit-profile m-b30" action="../../controller/upload.php">
+							<form class="edit-profile m-b30" action="controller/upload.php">
 								<div class="row">
 									<div class="col-12">
 										<div class="ml-auto">
@@ -246,20 +246,20 @@ if(file.type == "application/pdf"){
     
 </div>
 <!-- External JavaScripts -->
-<script src="../assets/js/jquery.min.js"></script>
-<script src="../assets/vendors/bootstrap/js/popper.min.js"></script>
-<script src="../assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-<script src="../assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
-<script src="../assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
-<script src="../assets/vendors/magnific-popup/magnific-popup.js"></script>
-<script src="../assets/vendors/counter/waypoints-min.js"></script>
-<script src="../assets/vendors/counter/counterup.min.js"></script>
-<script src="../assets/vendors/imagesloaded/imagesloaded.js"></script>
-<script src="../assets/vendors/masonry/masonry.js"></script>
-<script src="../assets/vendors/masonry/filter.js"></script>
-<script src="../assets/vendors/owl-carousel/owl.carousel.js"></script>
-<script src="../assets/js/functions.js"></script>
-<script src="../assets/js/contact.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/vendors/bootstrap/js/popper.min.js"></script>
+<script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/vendors/bootstrap-select/bootstrap-select.min.js"></script>
+<script src="assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js"></script>
+<script src="assets/vendors/magnific-popup/magnific-popup.js"></script>
+<script src="assets/vendors/counter/waypoints-min.js"></script>
+<script src="assets/vendors/counter/counterup.min.js"></script>
+<script src="assets/vendors/imagesloaded/imagesloaded.js"></script>
+<script src="assets/vendors/masonry/masonry.js"></script>
+<script src="assets/vendors/masonry/filter.js"></script>
+<script src="assets/vendors/owl-carousel/owl.carousel.js"></script>
+<script src="assets/js/functions.js"></script>
+<script src="assets/js/contact.js"></script>
 <!--tambahan-->
 <script src="assets/js/jquery.min.js"></script>
 <script src="assets/vendors/bootstrap/js/popper.min.js"></script>

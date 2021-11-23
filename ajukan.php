@@ -132,7 +132,7 @@
 					<div class="widget-box">
 						
 						<div class="widget-inner">
-							<form class="edit-profile m-b30" action="../controller/upload.php">
+							<form class="edit-profile m-b30" action="controller/upload.php">
 								<div class="row">
 									<div class="col-12">
 										<div class="ml-auto">
