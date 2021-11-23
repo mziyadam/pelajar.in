@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="740D4B91-FDA3-264E-3B27-52875F536830" name="Mahasiswa">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="740D4B91-FDA3-264E-3B27-52875F536830" name="User">
 <createdBy>ziyad</createdBy>
 <createdTime>2021-11-22 08:07:43 UTC</createdTime>
 <ownerDesignName>tes</ownerDesignName>
@@ -26,6 +26,19 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipeUser" id="A51A4AD1-D065-8FCE-B659-78D49C6A8B29">
+<createdBy>ziyad</createdBy>
+<createdTime>2021-11-22 15:14:41 UTC</createdTime>
+<ownerDesignName>tes</ownerDesignName>
+<engineerTo>
+<item key="84D503F4-546A-57C3-4F6D-0744BB541768" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="username" id="C29651EE-B5D1-3190-3DF3-50C00DBB6A99">
 <createdBy>ziyad</createdBy>
